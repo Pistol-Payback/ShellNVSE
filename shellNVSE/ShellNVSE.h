@@ -4,16 +4,27 @@
 #include <iostream>
 #include <unordered_set>
 
-#include "ParamInfos.h"
+#include "ShellNVSE/nvse/nvse/ParamInfos.h"
 
-#include "PluginAPI.h"
+#include "ShellNVSE/nvse/nvse/PluginAPI.h"
 #include "InventoryRef.h"
-#include "GameUI.h" 
-#include "common/ICriticalSection.h"
-#include "GameData.h"
+#include "ShellNVSE/nvse/nvse/GameUI.h" 
+#include "ShellNVSE/common/ICriticalSection.h"
+#include "ShellNVSE/nvse/nvse/GameData.h"
 #include "AuxVars.h"
-#include "Hooks_DirectInput8Create.h"
-#include "NiNodes.h"
+#include "ShellNVSE/nvse/nvse/Hooks_DirectInput8Create.h"
+#include "ShellNVSE/nvse/nvse/NiNodes.h"
+#include <ShellNVSE/nvse/nvse/SafeWrite.h>
+#include <ShellNVSE/nvse/nvse/Utilities.h>
+#include <ShellNVSE/nvse/nvse/GameTypes.h>
+#include <ShellNVSE/nvse/nvse/GameAPI.h>
+#include <ShellNVSE/nvse/nvse/containers.h>
+#include <ShellNVSE/nvse/nvse/GameForms.h>
+#include <ShellNVSE/nvse/nvse/GameObjects.h>
+#include <ShellNVSE/nvse/nvse/GameTiles.h>
+#include <ShellNVSE/nvse/nvse/utility.h>
+#include <ShellNVSE/nvse/nvse/CommandTable.h>
+#include "ShellNVSE/nvse/nvse/prefix.h"
 
 using namespace std::literals;
 

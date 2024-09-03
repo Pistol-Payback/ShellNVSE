@@ -1,7 +1,7 @@
 #pragma once
 
 #include "MemoryPool.h"
-#include "common/ICriticalSection.h"
+#include "ShellNVSE/common/ICriticalSection.h"
 #include <vector>
 #include <list>
 

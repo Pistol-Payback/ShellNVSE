@@ -1,6 +1,6 @@
-#include "nvse/GameTiles.h"
-#include "nvse/Utilities.h"
-#include "nvse/GameAPI.h"
+#include "GameTiles.h"
+#include "Utilities.h"
+#include "GameAPI.h"
 #include <string>
 
 typedef NiTMapBase <const char *, int>	TraitNameMap;

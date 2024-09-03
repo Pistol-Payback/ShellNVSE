@@ -1,7 +1,7 @@
 #pragma once
 
-#include "common/ITypes.h"
-#include "common/IErrors.h"
+#include "ITypes.h"
+#include "IErrors.h"
 
 #pragma warning(push)
 #pragma warning(disable: 4804)

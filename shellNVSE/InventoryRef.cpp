@@ -1,4 +1,5 @@
-#include "InventoryRef.h"
+#include "ShellNVSE/shellNVSE/InventoryRef.h"
+#include "ShellNVSE/common/ITypes.h"
 
 	ExtraDataList* __fastcall InventoryRef::SplitFromStack(SInt32 maxStack)
 	{

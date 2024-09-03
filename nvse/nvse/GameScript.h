@@ -3,7 +3,7 @@
 #include <span>
 #include "Utilities.h"
 #include "GameForms.h"
-#include "common/ICriticalSection.h"
+#include "ShellNVSE/common/ICriticalSection.h"
 #include "CommandTable.h"
 struct ScriptEventList;
 struct ScriptBuffer;

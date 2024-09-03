@@ -1,6 +1,6 @@
-#pragma once
-#include "ShellNVSE.h"
-
+#include "ShellNVSE/shellNVSE/ShellNVSE.h"
+#include "ShellNVSE/shellNVSE/AuxVars.h"
+#include "ShellNVSE/common/ITypes.h"
 #include <list>
 #include <variant>
 

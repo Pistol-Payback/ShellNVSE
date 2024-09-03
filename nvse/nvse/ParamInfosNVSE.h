@@ -1,5 +1,5 @@
 #pragma once
-#include <CommandTable.h>
+#include <ShellNVSE/nvse/nvse/CommandTable.h>
 
 // Declare Params with "static", so they are only built once (so this file can be included multiple times).
 

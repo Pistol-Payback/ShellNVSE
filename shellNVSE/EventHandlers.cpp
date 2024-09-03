@@ -1,6 +1,5 @@
-#pragma once
-#include "EventHandlers.h"
-#include <ParamInfosNVSE.h>
+#include "ShellNVSE/shellNVSE/EventHandlers.h"
+#include <ShellNVSE/nvse/nvse/ParamInfosNVSE.h>
 
 EventHandler onEquipAltEvent;
 

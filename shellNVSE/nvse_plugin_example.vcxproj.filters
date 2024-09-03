@@ -19,6 +19,9 @@
     <Filter Include="ShellNVSE\DataExtensions\InventoryRefs">
       <UniqueIdentifier>{bf5f6eee-2f10-4e22-be69-8e36cf1451d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ShellNVSE\EventHandlers">
+      <UniqueIdentifier>{2aff2ee3-9e8f-48e1-bb3b-08c85d381a39}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\nvse\nvse\GameAPI.cpp">
@@ -67,7 +70,6 @@
       <Filter>nvse</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.c" />
-    <ClCompile Include="ShellExample_main.cpp" />
     <ClCompile Include="..\nvse\nvse\containers.cpp">
       <Filter>nvse</Filter>
     </ClCompile>
@@ -98,6 +100,10 @@
     <ClCompile Include="..\nvse\nvse\NiNodes.cpp">
       <Filter>nvse</Filter>
     </ClCompile>
+    <ClCompile Include="EventHandlers.cpp">
+      <Filter>ShellNVSE\EventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellExample_main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\nvse\nvse\GameAPI.h">
@@ -202,6 +208,12 @@
     </ClInclude>
     <ClInclude Include="..\nvse\nvse\NiObjects.h">
       <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\nvse\prefix.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandlers.h">
+      <Filter>ShellNVSE\EventHandlers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

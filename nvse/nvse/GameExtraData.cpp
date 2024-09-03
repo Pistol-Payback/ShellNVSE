@@ -4,7 +4,7 @@
 #include "GameObjects.h"
 #include "GameRTTI.h"
 #include "GameScript.h"
-#include "class_vtbls.h"
+#include "ShellNVSE/shellnvse/class_vtbls.h"
 
 struct GetMatchingEquipped {
 	FormMatcher& m_matcher;

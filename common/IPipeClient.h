@@ -2,7 +2,7 @@
 
 #include <string>
 
-#include "common/IPipeServer.h"
+#include "IPipeServer.h"
 
 class IPipeClient
 {

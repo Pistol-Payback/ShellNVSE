@@ -1,19 +1,19 @@
-#pragma once
-#include "nvse/PluginAPI.h"
-#include "nvse/CommandTable.h"
-#include "nvse/GameAPI.h"
-#include "nvse/ParamInfos.h"
-#include "nvse/ParamInfosNVSE.h"
-#include "nvse/GameObjects.h"
-#include "nvse/Hooks_DirectInput8Create.h"
+#include "ShellNVSE/nvse/nvse/PluginAPI.h"
+#include "ShellNVSE/nvse/nvse/CommandTable.h"
+#include "ShellNVSE/nvse/nvse/GameAPI.h"
+#include "ShellNVSE/nvse/nvse/ParamInfos.h"
+#include "ShellNVSE/nvse/nvse/ParamInfosNVSE.h"
+#include "ShellNVSE/nvse/nvse/GameObjects.h"
+#include "ShellNVSE/nvse/nvse/Hooks_DirectInput8Create.h"
 #include <string>
-#include "ShellNVSE.h"
+#include "ShellNVSE/shellNVSE/ShellNVSE.h"
 #include "EventHandlers.h"
-#include "GameUI.h"
-#include "SafeWrite.h"
+#include "ShellNVSE/nvse/nvse/GameUI.h"
+#include "ShellNVSE/nvse/nvse/SafeWrite.h"
+#include "ShellNVSE/common/ITypes.h"
 
-IDebugLog		gLog("ShellNVSE.log");
-constexpr UInt32 g_PluginVersion = 1;
+//IDebugLog		gLog("ShellNVSE.log");
+//constexpr UInt32 g_PluginVersion = 1;
 
 PluginHandle	g_pluginHandle = kPluginHandle_Invalid;
 
@@ -159,7 +159,7 @@ bool NVSEPlugin_Query(const NVSEInterface* nvse, PluginInfo* info)
 	// fill out the info structure
 	info->infoVersion = PluginInfo::kInfoVersion;
 	info->name = "shellNVSE";
-	info->version = g_PluginVersion;
+	//info->version = g_PluginVersion;
 
 	return true;
 }
@@ -180,11 +180,11 @@ bool NVSEPlugin_Load(NVSEInterface* nvse)
 
 	if (nvse->isEditor)
 	{
-		_MESSAGE("shellNVSE Loaded successfully (Editor).\shellNVSE Plug Version: %u\n", g_PluginVersion);
+		_MESSAGE("shellNVSE Loaded successfully (Editor).\shellNVSE Plug Version: %u\n");
 	}
 	else
 	{
-		_MESSAGE("shellNVSE Loaded successfully (In-Game).\shellNVSE Plug Version: %u\n", g_PluginVersion);
+		_MESSAGE("shellNVSE Loaded successfully (In-Game).\shellNVSE Plug Version: %u\n");
 	}
 
 	// register to receive messages from NVSE

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "nvse/CommandTable.h"
-#include "nvse/Utilities.h"
+#include "CommandTable.h"
+#include "Utilities.h"
 
 #if RUNTIME
 #include "GameAPI.h"

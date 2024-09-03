@@ -131,7 +131,7 @@
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <ForcedIncludeFiles>nvse/prefix.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>ShellNVSE/nvse/nvse/prefix.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
@@ -347,6 +347,7 @@
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release GECK|Win32'">
       </ForcedIncludeFiles>
     </ClCompile>
+    <ClCompile Include="EventHandlers.cpp" />
     <ClCompile Include="InventoryRef.cpp" />
     <ClCompile Include="ShellExample_main.cpp" />
   </ItemGroup>
@@ -379,11 +380,13 @@
     <ClInclude Include="..\nvse\nvse\NiTypes.h" />
     <ClInclude Include="..\nvse\nvse\ParamInfosNVSE.h" />
     <ClInclude Include="..\nvse\nvse\PluginAPI.h" />
+    <ClInclude Include="..\nvse\nvse\prefix.h" />
     <ClInclude Include="..\nvse\nvse\SafeWrite.h" />
     <ClInclude Include="..\nvse\nvse\Utilities.h" />
     <ClInclude Include="..\nvse\nvse\utility.h" />
     <ClInclude Include="AuxVars.h" />
     <ClInclude Include="class_vtbls.h" />
+    <ClInclude Include="EventHandlers.h" />
     <ClInclude Include="InventoryRef.h" />
     <ClInclude Include="ShellNVSE.h" />
   </ItemGroup>

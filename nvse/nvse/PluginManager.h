@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-#include "nvse/PluginAPI.h"
+#include "PluginAPI.h"
 
 class PluginManager
 {

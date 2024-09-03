@@ -1,5 +1,5 @@
 #pragma once
-#include "PluginAPI.h"
+#include "ShellNVSE/nvse/nvse/PluginAPI.h"
 
 	struct InventoryRef
 	{

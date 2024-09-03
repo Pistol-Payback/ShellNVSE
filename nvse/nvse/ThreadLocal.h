@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ScriptTokenCache.h"
-#include "common/ICriticalSection.h"
+#include "ShellNVSE/common/ICriticalSection.h"
 
 class ExpressionEvaluator;
 class UserFunctionManager;

@@ -105,6 +105,7 @@
     <ClCompile Include="IDirectoryIterator.cpp">
       <Filter>files</Filter>
     </ClCompile>
+    <ClCompile Include="IPrefix.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IBufferStream.h">

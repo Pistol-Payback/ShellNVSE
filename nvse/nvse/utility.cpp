@@ -1,4 +1,4 @@
-#include "nvse/utility.h"
+#include "utility.h"
 
 UInt32 GetFirstFormIDForModIndex(UInt32 modIndex) {
 

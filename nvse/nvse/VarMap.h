@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Serialization.h"
-#include "common/ICriticalSection.h"
+#include "ShellNVSE/common/ICriticalSection.h"
 
 // simple template class used to support NVSE custom data types (strings, arrays, etc)
 

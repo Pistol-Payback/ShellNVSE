@@ -244,10 +244,10 @@ bool NVSEPlugin_Load(NVSEInterface* nvse)
 
 	//	See https://geckwiki.com/index.php?title=NVSE_Opcode_Base
 
-	UInt32 const ShellNVSEPluginOpcodeBase = 0; //Replace
+	//UInt32 const ShellNVSEPluginOpcodeBase = 0; //Replace
 
 	// register commands
-	nvse->SetOpcodeBase(ShellNVSEPluginOpcodeBase);
+	//nvse->SetOpcodeBase(ShellNVSEPluginOpcodeBase);
 		
 		
 	return true;
